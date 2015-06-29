@@ -1,10 +1,10 @@
 import angular from 'angular';
 import config from './config';
 
-import registerStateChangeEventHandler from './register-state-change-event-handler';
+import registerInvalidRouteHandler from './register-invalid-route-handler';
 
 export default function(ngModule, options){
   angular.merge(config, options);
 
-  registerStateChangeEventHandler(ngModule, options);
+  registerInvalidRouteHandler(ngModule, config);
 };
