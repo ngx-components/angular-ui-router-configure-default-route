@@ -1,6 +1,6 @@
 export default function(ngModule, options){
 
-  ngModule.run(registerEventHandler);
+  ngModule.config(addDefaultRoute);
 
   /**
    * Redirect to default url when invalid
