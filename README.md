@@ -9,7 +9,7 @@
 To install the component:
 
 ```bash
-$ ngx install angular-ui-router-invalid-route-handler
+$ ngx install angular-ui-router-configure-default-route
 ```
 
 No clue what the `ngx` command line tool is? Learn more about [AngularJS Express](https://github.com/angular-express/angular-express).
@@ -28,10 +28,10 @@ and import the component in your Angular application:
 var ngModule = angular.module('app', []);
 
 // Import component
-import c from 'components/angular-ui-router-invalid-route-handler/_build/index';
+import c from 'components/angular-ui-router-configure-default-route/_build/index';
 
 // Instantiate component
-c(ngModule, { baseUrl: 'components/angular-ui-router-invalid-route-handler' });
+c(ngModule, { baseUrl: 'components/angular-ui-router-configure-default-route' });
 ```
 
 ## Component options
